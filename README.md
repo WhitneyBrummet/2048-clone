@@ -8,6 +8,9 @@ This is a clone project of the popular game 2048 designed to show skills with mo
   - Play button (to go to game page)
   - How to play button
 
+#### A How To Play Page
+  - Explanation to the basic rules and mechanics of the game
+
 #### A Game Page (page to play the game)
   - Current Score
   - Best Score
