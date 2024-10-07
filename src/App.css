@@ -1,0 +1,17 @@
+header{
+  width: 470px;
+  margin-left: calc(50% - 235px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header>div{
+  width: 100px;
+  height: 32px;
+  background-color: rgb(73, 67, 67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
