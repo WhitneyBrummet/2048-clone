@@ -1,0 +1,19 @@
+.container {
+    width: 470px;
+    height: 470px;
+    margin-left: calc(50% - 235px);
+    background-color: rgb(39, 36, 36);
+}
+
+.item{
+    width: 100px;
+    border: 1px solid black;
+    background-color: blue;
+}
+.item{
+    background-color: rgb(73, 67, 67);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
