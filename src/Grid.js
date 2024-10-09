@@ -5,7 +5,7 @@ function colors(number){
     return 'filled' + number + ' grid-cell';
 }
 
-function Grid({ values }) {
+function Grid({values}) {
   return (
     <div className="grid-container">
       {values.map((row, rowIndex) => (
