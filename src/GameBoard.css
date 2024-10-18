@@ -1,3 +1,6 @@
+.App{
+    position: relative;
+}
 .container {
     width: 450px;
     height: 450px;
@@ -17,6 +20,8 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    transition: height 0.5s ease-in-out;
+    color: rgb(73, 67, 67);
 }
 .grid-row{
     display: flex;
@@ -24,8 +29,121 @@
 .filled1{
     background-color: white;
     font-size: 40px;
+    color: black;
 }
-.filled2{
-    background-color: Blue;
+.filled4{
+    background-color: red;
+    color: black;
     font-size: 40px;
+}
+.filled9{
+    background-color: #FF5349;
+    color: black;
+    font-size: 40px;
+}
+.filled16{
+    background-color: orange;
+    color: black;
+    font-size: 40px;
+}
+.filled25{
+    background-color: #FFAE42;
+    color: black;
+    font-size: 40px;
+}
+.filled36{
+    background-color: yellow;
+    color: black;
+    font-size: 40px;
+}
+.filled49{
+    background-color: yellowgreen;
+    color: black;
+    font-size: 40px;
+}
+.filled64{
+    background-color: green;
+    color: black;
+    font-size: 40px;
+}
+.filled81{
+    background-color: #0D98BA;
+    color: black;
+    font-size: 40px;
+}
+.filled100{
+    background-color: blue;
+    color: black;
+    font-size: 40px;
+}
+.filled121{
+    background-color: indigo;
+    color: black;
+    font-size: 40px;
+}
+.filled144{
+    background-color: violet;
+    color: black;
+    font-size: 40px;
+}
+.filled169{
+    background-color: pink;
+    color: black;
+    font-size: 40px;
+}
+.filled196{
+    background-color: hotpink;
+    color: black;
+    font-size: 40px;
+}
+.filled225{
+    background-color: gray;
+    color: black;
+    font-size: 40px;
+}
+.filled256{
+    background-color: black;
+    color: black;
+    font-size: 40px;
+}
+.gameOn{
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+}
+.gameOver{
+    opacity: 0.75;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: calc(50% - 182px);
+    left: calc(50% - 225px);
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gameOver>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.gameOver>div>p:last-of-type{
+    height: 20px;
+    font-size: 12px;
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+.gameOver>button{
+    padding: 7px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.gameOver>button:hover{
+    cursor: pointer;
+    opacity: 0.85;
 }
